@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Primeira Pagina</title>
+    <style>
+        .imagem-direita {
+            position: fixed;
+            right: 10px;
+            top: 100px;
+            width: 400px;
+            padding: 10px;
+            height: auto;
+        }
+        .mytestbtn {
+            background-color: green;
+            color: white;
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .mytestbtn:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body style="background-color: hsl(33, 100%, 88%);"> 
+    
+    
+
+    <h1>Minha Primeira Pagina</h1>
+
+    
+    <h2>1. Selecione uma Fruta</h2>
+    <label for="fruta">Escolha uma fruta:</label>
+    <select id="fruta" name="fruta">
+        <option value="maca">Maçã</option>
+        <option value="banana">Banana</option>
+        <option value="uva">Uva</option>
+        <option value="laranja">Laranja</option>
+    </select>
+
+   
+    <h2>2. selecione um estado</h2>
+    <label for="estado">Escolha um estado:</label>
+    <select id="estado" name="estado">
+        <option value="sp">São Paulo</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="pr" selected>Paraná</option>
+        <option value="mg">Minas Gerais</option>
+    </select>
+
+
+    <h2>3. Selecione um Animal</h2>
+    <label for="animal">Escolha um animal:</label>
+    <select id="animal" name="animal">
+        <optgroup label="Mamíferos">
+            <option value="cachorro">Cachorro</option> 
+            <option value="coelho">Coelho</option>                 
+            <option value="gato">Gato</option>
+        </optgroup>
+        <optgroup label="Aves">
+            <option value="papagaio">Papagaio</option>
+            <option value="canario">Canário</option >
+        </optgroup>
+    </select>
+
+    
+    <h2>4. Selecione uma ou mais Cores</h2>
+    <label for="cores">Escolha uma ou mais cores:</label><br>
+    <select id="cores" name="cores" multiple size="4">
+        <option value="vermelho">Vermelho</option>
+        <option value="azul">Azul</option>
+        <option value="verde">Verde</option>
+        <option value="amarelo">Amarelo</option>
+    </select>
+
+    
+    <h2>5. Selecione um País</h2>
+    <label for="pais">Escolha um país:</label>
+    <select id="pais" name="pais">
+        <option value="brasil">Brasil</option>
+        <option value="portugal">Portugal</option>
+    </select>
+
+    <h2>6. Selecione um Curso</h2>
+    <form action="#" method="get">
+        <label for="curso">Escolha um curso:</label>
+        <select id="curso" name="curso">
+            <option value="informatica">Informática</option>
+            <option value="administracao">Administração</option>
+            <option value="enfermagem">Enfermagem</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <img class="imagem-direita" src="cachorro.svg" alt="Cachorro" srcset="" sizes="(max-width: 600px) 100vw, 600px">
+    <button onclick="alert('Ola!')">Click</button>
+
+</body>
+</html>

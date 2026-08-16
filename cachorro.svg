@@ -1,0 +1,53 @@
+<svg width="680" height="640" viewBox="0 0 680 640" xmlns="http://www.w3.org/2000/svg">
+<title>Ilustração de um cachorro cartoon original</title>
+
+<ellipse cx="340" cy="600" rx="150" ry="20" fill="#d9d2c5"/>
+
+<!-- pernas -->
+<rect x="290" y="440" width="34" height="150" rx="16" fill="#f0a868"/>
+<rect x="356" y="440" width="34" height="150" rx="16" fill="#f0a868"/>
+<ellipse cx="300" cy="600" rx="40" ry="16" fill="#3a3a3a"/>
+<ellipse cx="380" cy="600" rx="40" ry="16" fill="#3a3a3a"/>
+
+<!-- corpo -->
+<ellipse cx="340" cy="400" rx="95" ry="120" fill="#f4b878"/>
+
+<!-- braços -->
+<ellipse cx="230" cy="380" rx="26" ry="70" fill="#f0a868" transform="rotate(-18 230 380)"/>
+<ellipse cx="450" cy="380" rx="26" ry="70" fill="#f0a868" transform="rotate(18 450 380)"/>
+<circle cx="205" cy="435" r="22" fill="#f4b878"/>
+<circle cx="475" cy="435" r="22" fill="#f4b878"/>
+
+<!-- barriga -->
+<ellipse cx="340" cy="415" rx="55" ry="65" fill="#fbe3bd"/>
+
+<!-- cabeça -->
+<ellipse cx="340" cy="220" rx="105" ry="95" fill="#f4b878"/>
+
+<!-- orelhas compridas caídas -->
+<path d="M245 190 C180 200, 160 300, 195 360 C215 375, 245 350, 240 300 Z" fill="#e89a58"/>
+<path d="M435 190 C500 200, 520 300, 485 360 C465 375, 435 350, 440 300 Z" fill="#e89a58"/>
+
+<!-- focinho -->
+<ellipse cx="340" cy="255" rx="55" ry="42" fill="#fbe3bd"/>
+<ellipse cx="340" cy="245" rx="20" ry="15" fill="#3a3a3a"/>
+
+<!-- olhos -->
+<circle cx="305" cy="200" r="14" fill="#ffffff"/>
+<circle cx="375" cy="200" r="14" fill="#ffffff"/>
+<circle cx="308" cy="203" r="7" fill="#3a3a3a"/>
+<circle cx="372" cy="203" r="7" fill="#3a3a3a"/>
+
+<!-- sobrancelhas -->
+<path d="M288 178 Q305 168 322 178" stroke="#7a4a1e" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M358 178 Q375 168 392 178" stroke="#7a4a1e" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+<!-- boca sorrindo -->
+<path d="M310 268 Q340 285 370 268" stroke="#7a4a1e" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+<!-- chapéu -->
+<ellipse cx="340" cy="135" rx="80" ry="16" fill="#5b8a72"/>
+<rect x="300" y="80" width="80" height="60" rx="8" fill="#6ba184"/>
+<rect x="298" y="128" width="84" height="14" rx="6" fill="#457a5f"/>
+
+</svg>
